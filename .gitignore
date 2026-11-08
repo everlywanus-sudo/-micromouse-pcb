@@ -1,0 +1,28 @@
+# KiCad lock files (created while a file is open)
+*.lck
+~*.lck
+
+# KiCad per-user local settings (layer visibility, open sheets, etc.)
+*.kicad_prl
+
+# KiCad backups, autosaves, local history, caches
+*-backups/
+.history/
+_autosave-*
+\#auto_saved_files\#
+fp-info-cache
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-save.pro
+*-save.kicad_pcb
+
+# Fabrication / export output (regenerate as needed)
+gerbers/
+*.zip
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
